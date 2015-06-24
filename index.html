@@ -1,0 +1,362 @@
+{<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/extra.css" />    
+  <link rel="stylesheet" href="css/proyecto.css" />    
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" > 
+   <div data-role="panel" id="mpanel" data-display="overly">
+  <a href="#page2" id="btnoabeja" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">ABEJA</a>
+  
+  <a href="#page3" id="btnodracula" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">DRACULA SIMIA</a>
+  
+  <a href="#page4" id="btnogarza" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">ORQUIDEA GARZA</a>
+  
+  <a href="#page5" id="btnopato" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">PATO VOLADOR </a>
+  
+  <a href="#page6" id="btnopajaro" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">CABEZA DE PAJARO </a>
+  </div>
+  <div data-role="header">
+  <div align="center">
+  <h1>¡SORPRENDENTE!</h1>
+  </div>
+  </div>
+   
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a>
+
+   <p align="justify">Las orquídeas u orquidáceas (nombre científico Orchidaceae) son una familia de plantas monocotiledóneas que se distinguen por la complejidad de sus flores y por sus interacciones ecológicas con los agentes polinizadores y con los hongos con los que forman micorrizas.
+   La familia comprende aproximadamente 25.000 (algunas fuentes informan de 30.000) especies, y quizá otros 60.000 híbridos y variedades producidas por los horticultores, por lo que resulta ser una de las familias con mayor riqueza de especies entre las angiospermas. Pueden ser reconocidas por sus flores de simetría fuertemente bilateral, en las que la pieza media del verticilo interno de tépalos —llamada labelo— está profundamente modificada, y el o los estambres están fusionados al estilo.
+   </p>
+     
+     <img src="Orquideas/orquidea.jpg" width="200" height="200">
+    
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Page2-->
+ <div data-role="page" id="page2" >   
+  <div data-role="panel" id="mpanel" data-display="overly">
+  
+  
+  <a href="#page3" id="btnodracula" class="ui-btn ">DRACULA SIMIA</a>
+  
+  <a href="#page4" id="btnogarza" class="ui-btn">ORQUIDEA GARZA</a>
+  
+  <a href="#page5" id="btnopato" class="ui-btn ">PATO VOLADOR </a>
+  
+  <a href="#page6" id="btnopajaro" class="ui-btn ">CABEZA DE PAJARO </a>
+ 
+  <a href="#principal" id="btninicio" class="ui-btn ui-icon-home ui-btn-icon-right">INICIO</a>
+  </div>
+  <div data-role="header">
+    <h1>ORQUIDEA ABEJA</h1>
+     <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <p align="justify">Su labelo imita al abdomen de una abeja hembra, atrayendo a abejas macho para que polinicen la flor. Sorprendente.
+Las flores de esta especie de orquídea son únicas, no solo por su singular belleza, color y formas excepcionales, sino también por la efectividad que poseen para atraer insectos. Su labelo imita al abdomen de una abeja hembra, atrayendo a abejas macho para que polinicen la flor.
+
+</p>
+ 
+    <div align="center">
+      <a href="#foto_uno" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_abeja.jpg" width="6%" height="52" style="width:5%">
+       </a>
+       
+       <a href="#foto_dos" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_abeja1.jpg" width="6%" height="54" style="width:5%">
+       </a>
+ 
+  </div>
+  
+  <div data-role="popup"  id="foto_uno" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_abeja.jpg" style="max-height:800px;">
+  
+  </div>
+ 
+ <div data-role="popup"  id="foto_dos" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_abeja1.jpg" width="298" height="367" style="max-height:300px;">
+  
+  </div>
+   </div>
+   
+  
+
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div> 
+  
+ <!-- Page2 -->
+ 
+  <!-- Page3-->
+ <div data-role="page" id="page3" >   
+   <div data-role="panel" id="mpanel" data-display="overly">
+  <a href="#page2" id="btnoabeja" class="ui-btn ">ABEJA</a>
+  
+  <a href="#page4" id="btnogarza" class="ui-btn ">ORQUIDEA GARZA</a>
+  
+  <a href="#page5" id="btnopato" class="ui-btn ">PATO VOLADOR </a>
+  
+  <a href="#page6" id="btnopajaro" class="ui-btn ">CABEZA DE PAJARO </a>
+  
+  <a href="#principal" id="btninicio" class="ui-btn  ui-icon-home ui-btn-icon-right">INICIO</a>
+ 
+   </div>
+
+   
+  <div data-role="header">
+    <h1>ORQUIDEA DRACULA SIMIA  </h1> 
+     <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a>  
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="justify">Estas orquídeas forman en ramilletes desde un corto rizoma, con un paquete denso de tallos. No tienen pseudobulbos. Con cada tallo desarrolla una hoja grande, delgada y picuda con una costilla media claramente definida. Estas hojas glabras de un color de verde oscuro a claro sustituyen las funciones del pseudobulbo ausente teniendo funciones de almacenamiento de nutrientes. Son puntiagudas con macro (punta breve).
+Los tallos florales se desarrollan erectos. Se pueden encontrar entre las raíces de algunas especies epífitas, colgando debajo de la planta. Las flores terminales con largas espuelas tienen básicamente una forma triangular. Las flores se abren individualmente ó sucesivamente. Pero si hay más de un capullo floral en el racimo, abren entonces con largos intervalos. Estas flores tienen un aspecto extraño debido a los largos apéndices en cada sépalo. Los pétalos son pequeños y gruesos.
+El labio es pequeño y no visible. La parte basal y carnosa del labio (hipo hilo) es hendida. La parte terminal (epiciclo) es redondeada y cóncava. Los márgenes del periantio a menudo son denticulares. Hay una bien desarrollada columna con dos polinias.
+
+</p>
+  
+  
+   <div align="center">
+      <a href="#foto_tres" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_dracula_simia.jpeg" width="6%" height="54" style="width:5%">
+       </a>
+      
+       
+       <a href="#foto_cuatro" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_dracula_simia1.jpg" width="6%" height="54" style="width:5%">
+       </a>
+ 
+
+  
+  <div data-role="popup"  id="foto_tres" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_dracula_simia.jpeg" width="462" height="401" style="max-height:300px;">
+  
+  </div>
+ 
+ <div data-role="popup"  id="foto_cuatro" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_dracula_simia1.jpg" width="329" height="391" style="max-height:300px;">
+   </div>
+  </div>
+ </div>
+
+ 
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div>
+ </div>
+ 
+ <!-- Page3 -->
+ 
+ <!-- Page4-->
+ <div data-role="page" id="page4" > 
+  <div data-role="panel" id="mpanel" data-display="overly">
+  <a href="#page2" id="btnoabeja" class="ui-btn ">ABEJA</a>
+  
+   <a href="#page3" id="btnodracula" class="ui-btn ">DRACULA SIMIA</a>
+   
+  <a href="#page5" id="btnopato" class="ui-btn ">PATO VOLADOR </a>
+  
+  <a href="#page6" id="btnopajaro" class="ui-btn ">CABEZA DE PAJARO </a>
+  
+  <a href="#principal" id="btninicio" class="ui-btn  ui-icon-home ui-btn-icon-right">INICIO</a>
+ 
+   </div> 
+ 
+  <div data-role="header">
+    <h1>ORQUIDEA GARZA</h1>
+         <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a>   
+     
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="justify">Esta singular especie de orquídea  simula la forma de una garza o garceta en vuelo con increíble realismo. Son endémicas de China, Japón, Corea y Rusia.  Es terrestre, con un tallo delgado que posee de 3 a 7 hojas. Su flor es sencillamente fascinante.
+</p>
+ 
+  
+   <div align="center">
+      <a href="#foto_cinco" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_garza.jpeg" width="6%" height="54" style="width:5%">
+       </a>
+       
+       <a href="#foto_seis" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_garza1.jpg" width="6%" height="54" style="width:5%">
+       </a>
+ 
+  </div>
+  
+  <div data-role="popup"  id="foto_cinco" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_garza.jpeg" width="462" height="401" style="max-height:800px;">
+  
+  </div>
+ 
+ <div data-role="popup"  id="foto_seis" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_garza1.jpg" width="329" height="391" style="max-height:300px;">
+  
+  </div>
+ </div>
+
+
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div> 
+   
+ <!-- Page4 -->
+ 
+  <!-- Page5-->
+ <div data-role="page" id="page5" >   
+ <div data-role="panel" id="mpanel" data-display="overly">
+  <a href="#page2" id="btnoabeja" class="ui-btn ">ABEJA</a>
+  
+   <a href="#page3" id="btnodracula" class="ui-btn ">DRACULA SIMIA</a>
+   
+ <a href="#page4" id="btnogarza" class="ui-btn ">ORQUIDEA GARZA</a>
+  
+  <a href="#page6" id="btnopajaro" class="ui-btn ">CABEZA DE PAJARO </a>
+  
+  <a href="#principal" id="btninicio" class="ui-btn  ui-icon-home ui-btn-icon-right">INICIO</a>
+ 
+   </div> 
+  <div data-role="header">
+    <h1>ORQUIDEA PATO VOLADOR</h1>
+     <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a>  
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="justify">La Caleana mejor, también llamada pato volador (Flint Duck Orchid) es una pequeña orquídea que florece en el sur de Australia. Esta planta terrestre ofrece una flor notable muy bella, parecida a un pato en vuelo. 
+Se la puede encontraren bosques en eucalipto ribereños o pantanosos y también en los matorrales y brezales cerca de la costa. La planta suele crecer hasta los 50 centímetros y sus flores tienen de 15 a 20 milímetros. Debido a su pequeño tamaño, es una planta difícil de observar en su hábitat natural.
+
+</p>
+ 
+  
+     <div align="center">
+      <a href="#foto_siete" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_pato_volador.png" width="6%" height="54" style="width:5%">
+       </a>
+       
+       <a href="#foto_ocho" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_pato_volador01.jpg" width="6%" height="54" style="width:5%">
+       </a>
+ 
+  </div>
+  
+  <div data-role="popup"  id="foto_siete" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_pato_volador.png" width="322" height="320" style="max-height:800px;">
+  
+  </div>
+ 
+ <div data-role="popup"  id="foto_ocho" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_pato_volador01.jpg" width="329" height="391" style="max-height:300px;">
+  
+  </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div>  
+ <!-- Page5 -->
+ 
+  <!-- Page6-->
+ <div data-role="page" id="page6" >   
+ <div data-role="panel" id="mpanel" data-display="overly">
+  <a href="#page2" id="btnoabeja" class="ui-btn">ABEJA</a>
+  
+   <a href="#page3" id="btnodracula" class="ui-btn ">DRACULA SIMIA</a>
+   
+ <a href="#page4" id="btnogarza" class="ui-btn">ORQUIDEA GARZA</a>
+  
+    <a href="#page5" id="btnopato" class="ui-btn ">PATO VOLADOR </a>
+  
+  <a href="#principal" id="btninicio" class="ui-btn  ui-icon-home ui-btn-icon-right">INICIO</a>
+ 
+   </div>
+  <div data-role="header">
+    <h1>ORQUIDEA CABEZA DE PAJARO </h1>
+     <a href="#mpanel" id="btnorquideas" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-right">ORQUIDEAS</a> 
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="justify"> Phalaenopsis es el género de orquídeas más popular por su utilización cómo plantas ornamentales.
+El género Phalaenopsis, originario del sudeste asiático, comprende a unas sesenta especies de orquídeas cuya forma se asemeja normalmente a las mariposas. De entre esas 60 especies muchas de ellas son híbridos artificiales.
+Algunas de las especies de Phalaenopsis más que a mariposas parecen asemejarse a pájaros.
+En estas imágenes pueden observarse algunos de esos ejemplares que recuerdan poderosamente la forma de la cabeza de las aves.
+</p>
+ 
+  
+    <div align="center">
+      <a href="#foto_diez" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_cabeza_de_pajaro.jpg" width="6%" height="54" style="width:5%">
+       </a>
+       
+       <a href="#foto_once" data-rel="popup" data-position-to="window" data-transition="fade">
+       <img src="Orquideas/orquidea_cabeza_de_pajaro01.jpg" width="6%" height="54" style="width:5%">
+       </a>
+ 
+  </div>
+  
+  <div data-role="popup"  id="foto_diez" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_cabeza_de_pajaro.jpg" width="427" height="404" style="max-height:800px;">
+  
+  </div>
+ 
+ <div data-role="popup"  id="foto_once" data-overlay-theme="b" data-theme="b" data-corners="false">
+  <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-delete ui-btn-icon-notext ui-btn-right">cerrar</a>
+  <img src="Orquideas/orquidea_cabeza_de_pajaro01.jpg" width="329" height="391" style="max-height:300px;">
+  
+  </div>
+   </div>
+
+  <div data-role="footer">
+    <h1>@DeicyMarinCohetero</h1>
+  </div>
+ </div>  
+ <!-- Page6 -->
+ 
+ 
+ 
+
+ </body>
+</html> 
