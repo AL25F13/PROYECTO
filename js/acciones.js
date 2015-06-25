@@ -4,35 +4,19 @@ $(document).ready(function(e) {
 	
 $('#btnorquideas').on('tap',function(){
 		 navigator.vibrate(1000);
-});
 		 
-		 $('#btnoabeja').on('tap',function(){
-		 navigator.vibrate(1000);
-		 });
-		 
-		 $('#btnodracula').on('tap',function(){
-		 navigator.vibrate(1000);
-		 });
-		 
-		 $('#btnogarza').on('tap',function(){
-		 navigator.vibrate(1000);
-		 });
-		 
-		 $('#btnopato').on('tap',function(){
-		 navigator.vibrate(1000);
-		 });
-		 
-		 $('#btnopajaro').on('tap',function(){
-		 navigator.vibrate(1000);
-		 });
-		 
-		  $('#btninicio').on('tap',function(){
-		 navigator.vibrate(1000);
-
+		 $('#btnorquideas').on('tap', function(){
+		 var pantalla = $.mobile.getScreenHeight();
+		var encabezado = $('.ui-header').outerHeight();
+		var pie = $('.ui-footer').outerHeight();
+		var contenido = $('ui.content').outerHeight();
+		var alto = (pantalla - encabezado - pie)/2;
+		$('.btnorquideas').height(alto);
+		});
 
 });
-	    
-}); 
+});
+ 
 //});
 
 
